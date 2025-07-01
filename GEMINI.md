@@ -1,8 +1,6 @@
 # Mars Watch (Darian Calendar)
 Create an esp32 application for the LilyGO T-Watch-S3 platform.
 
-
-
 ## Core Requirements
 - It should be a watch app with show the current time in digital 24-hours format "HH:MM:SS".
 - It should prominently display the current date using the Darian (Mars) Calendar.
