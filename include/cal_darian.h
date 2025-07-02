@@ -7,12 +7,13 @@
 #include <time.h>
 
 typedef struct {
-    int year;
-    int month;
-    int day;
-    char month_name[20];
+  int year;
+  int month;
+  int day;
+  char month_name[20];
 } Darian_Date;
 
-void gregorian_to_darian(const struct tm* gregorian_date, Darian_Date* darian_date);
+void gregorian_to_darian(const struct tm *gregorian_date,
+                         Darian_Date *darian_date);
 
 #endif // CAL_DARIAN_H
