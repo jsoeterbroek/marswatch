@@ -27,13 +27,13 @@ Create an esp32 application for the LilyGO T-Watch-S3 platform.
 - Use 'clang-tidy' for code quality and linting.
 - The application will be deployed on esp32 platform with C/C++ code using the Arduino framework. 
   platform = espressif32, framework = arduino
-- Further platform details can be gleaned from 'platformio.inii' file in the root of the project.
+- Further platform details can be gleaned from 'platformio.ini' file in the root of the project.
 - Prefer standard C over C++ for the code in this specific project.
 - I use git for source control. I want to be the one that commits code changes, not you.
 - Use Unity as test framework.
 - We use command-line PlatformIO command 'pio' for compiling, testing, uploading and any other 
   management tasks.
-- The pio command is locally installed at '/home/joost/.platformio/penv/bin/pio' (python virtual environment).
+- The pio command is locally installed at 'penv/bin/pio' (python virtual environment) in the projects root directory.
 
 ## Style Requirements
 - Make the watch face visually appealing (not just text).
@@ -46,6 +46,15 @@ Create an esp32 application for the LilyGO T-Watch-S3 platform.
 ## Interaction
 
 - Any time you interact with me, you MUST address me as "Joost"
+- Create `session_{slug}_{timestamp}.md` with a complete summary of our session. Include:
+  - A brief recap of key actions.
+  - Total cost of the session.
+  - Efficiency insights.
+  - Possible process improvements.
+  - The total number of conversation turns.
+  - Any other interesting observations or highlights.
+- Keep a list of items we are working on in 'TODO.md' and check off the items done. At the start of
+  each session consult TODO.md first.
 
 ## Our relationship
 
